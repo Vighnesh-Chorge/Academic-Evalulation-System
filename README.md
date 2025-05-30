@@ -61,18 +61,13 @@ academic-evaluation-system/
    source venv/bin/activate   # On Windows: venv\Scripts\activate
    ```
 
-3. **Install dependencies**
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Configure the database**
+3. **Configure the database**
 
    - Create your database and update credentials in `app.py` (or a separate `config.py` if used).
    - Initialize tables (manually or via script if provided).
 
-5. **Run the application**
+4. **Run the application**
    ```bash
    python app.py
    ```
